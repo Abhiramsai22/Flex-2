@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Main-Container">
+    <div class="item item-1">
+        <h1>Mastery Games</h1>
+        <p><strong>Create your account</strong></p>
+        <form action="./response.html">
+        <div class="name">
+            <label for="name"> </label>
+            <input type="text" name="name" id="name" placeholder="First Name" required>
+        </div>
+        <div class="email">
+            <label for="email"></label>
+            <input type="text" name="email" id="email" placeholder="Email" required pattern="[a-z0-9]+@gmail\.com" title="enter correct format">
+        </div>
+        <div class="password">
+            <label for="password"></label>
+            <input type="password" name="password" id="password" placeholder="password" required pattern="[a-zA-Z0-9_]+" title="password should be capital,small,numbers and underscore">
+        </div>
+        <div class="button">
+            <label for="account"></label>
+            <input type="submit" id="button" name="button" value="Create Account">
+        </div>
+        <p>Already have a Mastery Games account? <a href="#">Sign-In</a></p>
+
+        </form>
+
+    </div>
+    </div>
+    
+</body>
+</html>
